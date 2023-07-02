@@ -1,0 +1,22 @@
+{
+  "name": "getmonth",
+  "version": "1.0.2",
+  "description": "一个获取年月，年季，年，年最后一个月的工具",
+  "main": "dist/index.min.mjs",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c "
+  },
+  "keywords": [],
+  "author": "RabbitCodeHole",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^3.26.0",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.9"
+  }
+}
